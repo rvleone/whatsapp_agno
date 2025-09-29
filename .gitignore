@@ -1,0 +1,24 @@
+# Docker volumes - Embora sejam volumes nomeados, é uma boa prática
+# garantir que diretórios com nomes semelhantes não sejam enviados.
+waha_data/
+rabbitmq_data/
+redis_data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Arquivos de ambiente
+.env
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/

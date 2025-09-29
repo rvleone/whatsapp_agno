@@ -1,0 +1,23 @@
+{
+	"name": "Whatsapp-Agno-DEV",
+    "dockerComposeFile": "../compose.yml",
+    "service": "api",
+    "remoteUser": "asimov",
+    "workspaceFolder": "/workspace",
+    "shutdownAction": "stopCompose",
+    "postCreateCommand": "chmod +x /workspace/.venv/bin/activate",
+
+    // Configure tool-specific properties.
+    "customizations": {
+        "vscode": {
+            "settings": {
+                    "python.defaultInterpreterPath": "/workspace/.venv/bin/python"
+            },
+            "extensions": [
+                "ms-python.vscode-pylance",
+                "ms-python.python",
+                "ms-python.debugpy"
+            ]
+        }
+    }
+}
